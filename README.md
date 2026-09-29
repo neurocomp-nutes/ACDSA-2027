@@ -10,12 +10,15 @@ The review included **218 studies published between 2015 and 2025**.
 
 ## Research Question
 
+Accordingly, the central research question is:
+
+*"What are the key characteristics, applications, limitations, and future potential of datasets used in Artificial Intelligence models within computational neuroscience research, as reported in English-language academic, clinical, or experimental studies over the last decade?"*
 
 ## Methodology
 
 The scoping review was conducted in accordance with the JBI Manual for Evidence Synthesis and reported following the PRISMA Extension for Scoping Reviews (PRISMA-ScR) guidelines.
 
-The review considered studies published between 2015 and 2025 and focused on studies applying machine learning or deep learning methods to real neurological datasets, including MRI/fMRI, EEG, MEG, PET, and related biomarkers. Studies focused exclusively on segmentation, data harmonization, methodological model development without dataset-oriented analysis, or without machine learning applications were excluded.
+The review considered studies published in English between 2015 and 2025 and focused on studies applying machine learning or deep learning methods to real neurological datasets, including MRI/fMRI, EEG, MEG, PET, and related biomarkers. Studies focused exclusively on segmentation, data harmonization, methodological model development without dataset-oriented analysis, or without machine learning applications were excluded.
 
 ## Search Strategy
 
@@ -25,9 +28,38 @@ The literature searches were conducted in the following databases:
 * IEEE Xplore
 * ACM Digital Library
 
-The complete search strategy is available in:
+The search strategy was standardized and applied consistently across all selected databases to ensure comprehensiveness and reproducibility of the results. To construct the search string, the following conceptual model was used as a base, ensuring coverage of key components in the research scope:
 
-→ `search/search-strategy.md`
+**AI/KEY TERMS** AND
+
+**SCANS/EXAMINATIONS** AND
+
+**COMPUTATIONAL MODELS** AND
+
+**BIOLOGICAL CONTEXT** AND
+
+**DATASET**
+
+Below is the full search string used across all databases:
+
+```text
+((("artificial intelligence" OR "machine learning" OR "deep learning" OR "neural network" OR
+"learning machine" OR "deep machine learning" OR "deep ML" OR "algorithmic neural network" OR
+"ANN” OR "artificial neural networks" OR "computational intelligence" OR "supervised machine
+learning" OR "supervised machine" OR "unsupervised machine learning" OR "pattern recognition")
+AND
+("fMRI" OR "Functional Magnetic Resonance Imaging" OR "functional MRI" OR "brain scan" OR
+"brain imaging" OR "Brain Mapping" OR "neural recording" OR "neurophysiology" OR "Magnetic
+Resonance Imaging" OR "MEG" OR "Functional Brain Imaging" OR "neuroimaging biomarkers")
+AND
+("neuroscience" OR "computational" OR "modeling" OR "computational neuroscience" OR
+"cognitive computational neuroscience" OR "theoretical neuroscience" OR "Neuroinformatic") AND
+("dataset" OR "data set” OR "neural dataset" OR "database" OR "data repository" OR "data
+repositories"))
+AND
+("neuroscience"))
+```
+
 
 ## Study Selection
 
