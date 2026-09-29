@@ -12,7 +12,7 @@ The review included **218 studies published between 2015 and 2025**.
 
 Accordingly, the central research question is:
 
-*"What are the key characteristics, applications, limitations, and future potential of datasets used in Artificial Intelligence models within computational neuroscience research, as reported in English-language academic, clinical, or experimental studies over the last decade?"*
+>*"What are the key characteristics, applications, limitations, and future potential of datasets used in Artificial Intelligence models within computational neuroscience research, as reported in English-language academic, clinical, or experimental studies over the last decade?"*
 
 ## Methodology
 
