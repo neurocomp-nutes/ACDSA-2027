@@ -53,7 +53,8 @@ AND
 Resonance Imaging" OR "MEG" OR "Functional Brain Imaging" OR "neuroimaging biomarkers")
 AND
 ("neuroscience" OR "computational" OR "modeling" OR "computational neuroscience" OR
-"cognitive computational neuroscience" OR "theoretical neuroscience" OR "Neuroinformatic") AND
+"cognitive computational neuroscience" OR "theoretical neuroscience" OR "Neuroinformatic")
+AND
 ("dataset" OR "data set” OR "neural dataset" OR "database" OR "data repository" OR "data
 repositories"))
 AND
